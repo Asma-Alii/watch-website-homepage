@@ -1,0 +1,633 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #F4F4F4;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif
+  
+}
+
+
+
+ 
+nav{
+    width: 100%;
+    height: 80px;
+   background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); ;
+  
+    
+}
+
+.options {
+    display: flex;
+    gap: 50px;
+    padding-right: 3vw;
+    font-family:sans-serif;
+}
+
+h2{
+    padding-left: 4vw;
+    font-size: 2.7vw;
+    font-family:sans-serif;
+}
+
+.options i {
+    display: none;
+    font-size: 2vw;
+
+}
+
+.content{
+    height: calc(100% - 80px);
+  width: 100%;
+    display: flex;
+
+    
+}
+
+.heading{
+   font-family:sans-serif;
+    width: 50%;
+    padding-left: 4vw;
+    padding-top: 5vw;
+}
+
+.heading h1{
+    font-size: 4vw;
+}
+
+.heading p {
+    font-size: 1.5vw;
+    padding-top: 1.5vw;
+}
+
+.image{
+    width: 50%;
+   padding-left: 7vw;
+}
+
+img {
+    max-width: 100%; /* Images ko container ke andar fit rakhta hai */
+    height: auto;
+    display: block;
+}
+
+
+.content button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.content button{
+    width: 9vw;
+    height: 6vh;
+    margin-top: 1.5vw;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/*about section*/
+
+.About{
+    width: 100%;
+  background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    padding-top: 3vw;
+    height: 50%;
+}
+  
+.About p{
+    padding-top: 2vw;
+    color: #555;
+}
+
+.about-features {
+    padding-top: 3vw;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+  }
+  
+  .feature-item {
+    text-align: center;
+  }
+  
+  .feature-item i {
+    font-size: 40px;
+    color: black;
+    /* margin-bottom: px; */
+  }
+  
+  .feature-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  
+/*feature section*/
+
+.features{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+
+.feature-list{
+        display: flex;
+        justify-content: center;
+        gap: 60px; /* Add space between items */
+        flex-wrap: wrap; /* Allow items to wrap */
+        padding: 20px;
+   
+}
+
+.feature-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.feature{
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+   background-color: white;
+    width: 22vw;
+    height: 50vh ;
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.feature i{
+    padding-top: 5vw;
+    font-size: 4vw;
+}
+
+.feature h3 {
+    font-size: 2vw;
+    padding-top: 2vw;
+}
+
+.feature p {
+    color: #555;
+    padding-top: 1vw;
+}
+
+/*Contact section*/
+
+.contact{
+    width: 100%;
+    padding-top: 2vw;
+    background-color:white;
+    height: auto;
+}
+
+.contact p{
+    color: #555;
+}
+
+.contact-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-heading h3 {
+    font-size: 2vw;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    padding-top: 1vw;
+   
+}
+
+form input, form textarea{
+    width: 45vw;
+    border-radius: 6px;
+    border: 1.5px solid #bdbcbc;
+    padding-left: 1vw;
+    
+}
+
+form input {
+    height: 7vh;
+}
+
+form textarea{
+    height: 14vh;
+    padding-top: 1vw;
+}
+
+form button{
+    width: 46vw;
+    height: 7vh;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: auto;
+    display: flex;
+    justify-content:space-evenly ;
+    padding-top: 5vw;
+    margin-top: 5vw;
+    
+}
+
+.about-info {
+    text-align: center;
+}
+
+.about-info p{
+    padding-top: 2vw;
+    line-height: 2vw;
+   
+}
+
+.links{
+    text-align: center;
+    line-height: 2.5vw;
+}
+
+.follow{
+    text-align: center;
+   line-height: 2.5vw;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.icon{
+    display: flex;
+    gap: 2vw;
+    font-size: 2vw;
+    padding-top: 1.5vw;
+}
+
+    
+
+/*For mobile*/
+
+
+@media (max-width : 576px){
+     .options h4 {
+        display: none;
+    }
+     
+    .options i {
+        display: block;
+        font-size: 8vw;
+        padding-right: 3vw;
+    }
+
+    .logo h2{
+        font-size:6vw;
+    }
+
+    .content{
+        width: 100%;
+        height: 75vh;
+        flex-wrap: wrap;
+       justify-content: center;
+       
+
+    }
+    .heading{
+        width: 100%;
+    }
+
+    .heading h1{
+        font-size: 10vw;
+
+    }
+
+    .heading p {
+        font-size: 4vw;
+    }
+
+    .content button{
+        height: 5vh;
+        width: 22vw;
+        margin-top: 3vw;
+    }
+
+    .image{
+        width: 100%;
+    
+    }
+
+    /*About Section*/
+
+    .About {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+       
+    }
+
+    .About h2 {
+        font-size: 6vw;
+    }
+
+    .About p{
+        padding-left: 4vw;
+        font-size: 3vw;
+    }
+
+    .about-features i{
+        font-size: 7vw;
+    }
+    .about-features{
+        padding-top: 7vw;
+    }
+
+
+    /*feature section*/
+
+    .features{
+        width: 100%;
+    }
+
+    .feature-heading h2{
+        font-size: 6vw;
+    }
+
+    .feature{
+        height: 30vh;
+        width: 70%;
+        flex-wrap: wrap;
+    }
+
+    .feature-list{
+      text-align: center;
+      align-items: center;
+    } 
+
+     .feature i {
+        font-size: 7vw;
+      
+    } 
+
+    .feature h3{
+     font-size: 5vw;
+        padding-top: 7vw;
+    }
+
+    .feature p {
+        padding-top:7vw ;
+    }
+
+    /*contact section*/
+
+    .contact{
+        width: 100%;
+    }
+
+    .contact-heading h3{
+        font-size: 6vw;
+    }
+
+    form input, form textarea{
+        width: 70vw;
+        font-size: 2.8vw;
+    }
+
+    form input {
+        height: 5.5vh;
+    }
+    
+    form textarea{
+        height: 11vh;
+        padding-top: 2vw;
+    }
+
+    form button{
+        width: 71vw;
+        height: 6vh;
+        cursor: pointer;
+        font-size: 3vw;
+    }
+
+    /*footer section*/
+
+    footer{
+        width: 100%;
+        gap: 10vw;
+        padding-bottom: 5vw;
+       margin-top: 10vw;
+       flex-direction: column;
+    }
+
+    .about-info h4{
+        font-size: 4vw ;
+    }
+
+    .about-info p{
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+    
+    .links{
+        padding-top: 4vw;
+    }
+
+    .links h4{
+        font-size: 4vw;
+    }
+
+     .a-tag {
+        padding-top: 3vw;
+        font-size:3vw ;
+        line-height:5vw ;
+    }
+
+    .follow h4{
+        font-size: 4vw;
+    }
+
+    .icon{
+        font-size: 4vw;
+     justify-content: center;
+     padding-top: 3vw;
+      
+    }
+
+    
+}
+
+
+/*For Tablet*/
+
+@media (min-width: 576px) and (max-width: 1024px) {
+
+    /*Navbar*/
+
+   h2{
+   font-size: 4vw;
+   }
+
+   .options h4{
+    font-size: 2vw;
+   }
+
+   /*Hero Section*/
+
+   .content button{
+    height: 6vh;
+    width: 15vw;
+    font-size: 2vw;
+   }
+
+   .content{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+   }
+
+   .image{
+    height: auto;
+    max-width: 50%;
+
+   }
+
+
+   /*About Section*/
+
+   .About{
+    width: 100%;
+    height: auto;
+    padding-bottom: 5vw;
+   }
+
+   .About p {
+    padding-left: 4vw;
+    font-size: 2vw;
+   }
+
+   /*Features Section*/
+
+   .features{
+    width: 100%;
+    height: auto;
+   }
+
+   .feature{
+    height: 30vh;
+    width: 40vw;
+   }
+
+   .feature-list h3 {
+    font-size: 3vw;
+   }
+
+   .feature-list p {
+    font-size: 2vw;
+   }
+
+   /*Contact Section*/
+
+   .contact{
+    width: 100%;
+    height: auto;
+   }
+
+   .contact-heading h3 {
+    font-size: 4vw;
+   }
+
+   .contact-heading p{
+    font-size: 2vw;
+   }
+
+   form input, form textarea{
+    width: 70vw;
+    font-size: 2vw;
+}
+
+form button{
+    width: 70vw;
+    height: 6vh;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    font-size: 2vw;
+}
+
+/*Footer*/
+
+ footer{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 5vw;
+    padding-bottom: 5vw;
+   margin-top: 10vw;
+ }
+
+ .icon{
+    font-size: 3vw;
+ justify-content: center;
+  
+}
+
+.follow h4{
+    font-size: 2.5vw;
+}
+
+.a-tag {
+    padding-top: 2vw;
+    font-size:2vw ;
+    line-height:3vw ;
+}
+
+.links h4{
+    font-size: 2.5vw;
+}
+
+.about-info h4 {
+    font-size: 2.5vw;
+}
+
+.about-info p{
+    font-size: 2vw;
+    line-height: 3vw;
+}
+
+
+
+}
